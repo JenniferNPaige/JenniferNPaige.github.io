@@ -25,6 +25,27 @@ section, summary, time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;}
 
+html, body {
+	overflow-x: hidden;
+}
+
+.tabs ul.actions.fit {
+	width: 100%;
+	margin-left: 0;
+}
+
+	.tabs ul.actions.fit li {
+		padding: 0 0.5em;
+	}
+
+		.tabs ul.actions.fit li:first-child {
+			padding-left: 0;
+		}
+
+		.tabs ul.actions.fit li:last-child {
+			padding-right: 0;
+		}
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
